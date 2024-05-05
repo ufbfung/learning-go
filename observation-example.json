@@ -1,0 +1,23 @@
+{
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "display": "Creatinine [Mass/volume] in Serum or Plasma",
+                "code": "2160-0"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/" // fill in the id after uploading to fhir store
+    },
+    "effectiveDateTime": "2024-05-01",
+    "valueQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "code": "mg/dL",
+        "unit": "mg/dL",
+        "value": 1.4
+    }
+}
