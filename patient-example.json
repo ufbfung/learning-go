@@ -1,4 +1,5 @@
 {
+    "resourceType": "Patient",
     "identifier": [
         {
             "type": {
